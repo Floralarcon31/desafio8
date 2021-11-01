@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>desafio omplementario- generar HTML</title>
+</head>
+<body>
+
+   
+        
+     <!--formulario Ingresar-->
+    
+     <div id="mensaje1" >
+
+    </div>
+    <div class="formulario" id="formulario">
+        <form method="POST" enctype="multipart/form-data">                    
+            <section class="form-register">       
+                <h2>Ingresar</h2>   
+                    <label>Nombre:</label>                     
+                        <input  class="controls"  type="text" name="nombre" maxlength="100" placeholder="Nombre" id="user">
+                    <label>Contraseña:</label>
+                        <input class="controls" type="text" placeholder="Contraseña" id="pass">
+                        <label>Selecciona tu pais:</label>
+                        <select id="mySelect">
+                            <option value="-1">Selecciona</option>
+                        </select>
+                
+                        <input class="botons" type="submit" name="enviar" value="Ingresar" id="botons">   
+            </section>
+          </form>
+    </div> 
+
+    <div id="pais">
+
+    </div>
+    <div id="mensaje" >
+
+    </div>
+
+
+    <!--  Scripts -->
+   <script src="js/main.js"></script>
+</body>
+</html>
